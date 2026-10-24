@@ -6,7 +6,7 @@ A view-only dashboard for a crypto portfolio on Binance. It reads balances, pric
 
 This dashboard was built to monitor MoltBot, a personal automated trading bot I ran on my own Binance account.
 
-- **The bot:** a Python, rule-based trading system that bought and sold on Binance Spot when predefined conditions were met, under fixed trade limits. I wrote most of it, with AI assistance (Claude Code). I tested many variants of the approach with backtests before settling on the rules.
+- **The bot:** a Python, rule-based trading system for Binance Spot built on the Elder Triple Screen method with an RSI filter, running under fixed trade limits. I wrote most of it, with AI assistance (Claude Code). I tested many variants of the approach with backtests that included trading fees and slippage before settling on the rules.
 - **Run:** about 3-4 months with real capital of roughly 200-300 USD.
 - **Status:** the bot has been stopped and its code deleted, so it is not part of this repository. I did not keep a verified performance record, so I make no performance claims.
 - **This repo:** the dashboard I built to watch the account: portfolio value over time, allocation, per-coin cards with take-profit / stop-loss levels, and trade history. It never places orders.
